@@ -1,0 +1,16 @@
+---
+clickhouse:
+  hosts:
+    clickhouse-01:
+      ansible_host: 89.169.153.137
+      ansible_user: netology_yandex
+vector:
+  hosts:
+    vector-01:
+      ansible_host: 89.169.158.179
+      ansible_user: netology_yandex
+lighthouse:
+  hosts:
+    lighthouse-01:
+      ansible_host: 62.84.118.135
+      ansible_user: netology_yandex

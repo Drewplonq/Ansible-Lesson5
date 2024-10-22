@@ -1,0 +1,7 @@
+---
+- name: Start nginx service
+  become: true
+  ansible.builtin.service:
+    name: nginx
+    state: started
+    daemon_reload: true
