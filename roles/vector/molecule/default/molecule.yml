@@ -11,12 +11,11 @@ platforms:
   - name: ubuntu
     image: docker.io/pycontribs/ubuntu:latest
     pre_build_image: true
-  - name: aragast
-    image: docker.io/aragast/netology:latest
-    pre_build_image: true
+    privileged: true
   - name: oraclelinux
     image: ghcr.io/oracle/oraclelinux8-python:3.11-oracledb-20241012
     pre_build_image: true
+    privileged: true
 provisioner:
   name: ansible
 verifier:
